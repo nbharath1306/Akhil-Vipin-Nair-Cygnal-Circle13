@@ -1,5 +1,6 @@
 import type { TeamMember } from "@/data/types";
 import bharathData from "@/data/bharath";
+import akhilData from "@/data/akhil";
 
 /**
  * Data layer — reads from local JSON files.
@@ -10,6 +11,7 @@ import bharathData from "@/data/bharath";
 
 const LOCAL_MEMBERS: Record<string, TeamMember> = {
   bharath: bharathData,
+  akhil: akhilData,
 };
 
 export async function getMember(slug: string): Promise<TeamMember | null> {
@@ -26,7 +28,7 @@ export async function getAllMembers(): Promise<TeamMember[]> {
 
 // ── GitHub API helpers (used by admin to persist changes) ──────
 
-const REPO = process.env.GITHUB_REPO ?? "nbharath1306/Cygnal-Circle13";
+const REPO = process.env.GITHUB_REPO ?? "nbharath1306/Akhil-Vipin-Nair-Cygnal-Circle13";
 const BRANCH = process.env.GITHUB_BRANCH ?? "main";
 
 function githubHeaders() {

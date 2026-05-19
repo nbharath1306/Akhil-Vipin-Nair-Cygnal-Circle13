@@ -1,8 +1,10 @@
 import { TeamMember } from "./types";
 import bharath from "./bharath";
+import akhil from "./akhil";
 
 const teamMembers: Record<string, TeamMember> = {
   bharath,
+  akhil,
 };
 
 export function getTeamMember(slug: string): TeamMember | undefined {
