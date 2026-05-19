@@ -10,12 +10,12 @@ const akhil: TeamMember = {
   coverPhoto: "/images/team/akhil-cover.jpeg",
   status: "Building in public",
   socials: [
-    { platform: "LinkedIn", url: "https://www.linkedin.com/in/akhil-vipin-nair/", icon: "Linkedin" },
-    { platform: "WhatsApp", url: "https://wa.me/918618698941", icon: "WhatsApp" },
-    { platform: "Instagram", url: "https://www.instagram.com/akhil_vipin_nair/", icon: "Instagram" },
-    { platform: "X", url: "https://x.com/akhil_vipin_nair", icon: "Twitter" },
-    { platform: "Reddit", url: "https://www.reddit.com/user/akhil_vipin_nair/", icon: "Reddit" },
-    { platform: "Substack", url: "https://substack.com/@akhil_vipin_nair", icon: "Substack" },
+    { platform: "LinkedIn", url: "https://www.linkedin.com/in/akhil-vipin-nair-a5692635b/", icon: "Linkedin" },
+    { platform: "WhatsApp", url: "https://wa.me/919886010706", icon: "WhatsApp" },
+    { platform: "Instagram", url: "https://www.instagram.com/amazingakhil07/", icon: "Instagram" },
+    { platform: "X", url: "https://x.com/amazingakhil07", icon: "Twitter" },
+    { platform: "Reddit", url: "https://www.reddit.com/user/AkhilNair2006/", icon: "Reddit" },
+    { platform: "Substack", url: "https://substack.com/@akhilvipinnair/", icon: "Substack" },
     { platform: "Email", url: "mailto:akhil@circle13.space", icon: "Mail" },
   ],
   sections: [
@@ -52,6 +52,24 @@ const akhil: TeamMember = {
           url: "https://www.instagram.com/circle13.signal/",
           icon: "Instagram",
           description: "@circle13.signal",
+        },
+        {
+          label: "Reddit",
+          url: "https://www.reddit.com/user/AkhilNair2006/",
+          icon: "Reddit",
+          description: "u/AkhilNair2006",
+        },
+        {
+          label: "Substack",
+          url: "https://substack.com/@akhilvipinnair/",
+          icon: "Substack",
+          description: "@akhilvipinnair",
+        },
+        {
+          label: "Email",
+          url: "mailto:akhil@circle13.space",
+          icon: "Mail",
+          description: "akhil@circle13.space",
         },
         {
           label: "Personal Website",
